@@ -13,7 +13,7 @@ RUN echo "[]" > /craftbukkit/banned-ips.json
 RUN echo "[]" > /craftbukkit/ops.json
 RUN echo "[]" > /craftbukkit/whitelist.json
 
-COPY src/ /craftbukkit/
+COPY craftbukkit/ /craftbukkit/
 
 EXPOSE 25565:25565
 
