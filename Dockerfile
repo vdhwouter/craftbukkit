@@ -1,6 +1,8 @@
 FROM java
 MAINTAINER vandenheedewouter
 
+RUN apt-get update && \ apt-get install vim
+
 RUN mkdir -p /craftbukkit
 
 RUN curl http://tcpr.ca/files/craftbukkit/craftbukkit-1.9.2-R0.1-SNAPSHOT-latest.jar -o /craftbukkit/craftbukkit.jar
