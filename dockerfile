@@ -1,4 +1,4 @@
-FROM VdHWouter/craftbukkit
+FROM vdhwouter/craftbukkit
 MAINTAINER vandenheedewouter
 
 RUN mkdir -p /craftbukkit
