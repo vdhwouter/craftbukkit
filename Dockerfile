@@ -1,4 +1,4 @@
-FROM craftbukkit/java:oracle-java8
+FROM java:oracle-java8
 MAINTAINER vandenheedewouter
 
 RUN mkdir -p /craftbukkit
