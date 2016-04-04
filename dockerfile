@@ -1,5 +1,5 @@
 FROM vdhwouter/craftbukkit
-MAINTAINER vandenheedewouter
+MAINTAINER vandenheede.wouter
 
 RUN mkdir -p /craftbukkit
 
