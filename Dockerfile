@@ -1,7 +1,8 @@
 FROM java
 MAINTAINER vandenheedewouter
 
-RUN apt-get update
+RUN apt-get update \
+	&& apt-get install vim
 
 RUN mkdir -p /craftbukkit
 
